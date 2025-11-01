@@ -9,6 +9,7 @@ span footer {
 
 footer {
     background-color:blue;
+    color: white;
     text-align: center;
     display: grid;
     padding: 10px 0;
