@@ -51,6 +51,10 @@ body  {
     "wdth" 100;
 }
 
+head body footer {
+    width:100% 
+}
+
 
 
 
