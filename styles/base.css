@@ -37,6 +37,23 @@ nav a {
     text-decoration: none;
     color: white;
     display: block;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+body  {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
 
 
 
