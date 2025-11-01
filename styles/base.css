@@ -26,15 +26,19 @@ header {
 }
 
 nav ul {
+    display: flex;
     list-style: none;
     padding: 0;
 }
 nav a {
-    color: white;
+    margin: 0 15px;
     text-decoration: none;
+    color: white;
     display: block;
 
 
     
 }
+
+
 
