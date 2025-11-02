@@ -74,9 +74,9 @@ main {
     display: grid;
     padding: 1rem;
     text-align: left;
-    flex-direction:column;
+    grid-row: 2;
     gap: 1rem;
-    text-wrap: inherit
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 ;
 }
 
