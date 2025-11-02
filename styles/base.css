@@ -9,11 +9,13 @@
 footer {
     background-color:blue;
     color: white;
-    align-items: center;
+    box-sizing: border-box;
     display: grid;
     bottom: 0;
     width: 100%;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
 
 }
 
