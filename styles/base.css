@@ -69,7 +69,7 @@ header main footer {
 }
 
 main {
-    margin: 1cm;
+    margin: 0.5rem;
     display: grid;
     grid-column: 1/2;
     padding: 2rem;
