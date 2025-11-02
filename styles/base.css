@@ -23,7 +23,7 @@ footer {
 header {
     background-color: blue;
     color: white;
-    padding: 10px 0;
+    grid-template-columns: auto;
     text-align: center;
     display: grid;
 }
