@@ -2,10 +2,10 @@ span header {
     display: block;
     width: 100%;
 }
+span #course-title {
+    font-size: 1.5rem;
+    font-weight: bold;
 
-span footer {
-    display: block;
-}
 
 footer {
     background-color:blue;
