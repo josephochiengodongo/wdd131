@@ -7,7 +7,7 @@ span header {
 footer {
     background-color:blue;
     color: white;
-    text-align: center;
+    text-align: justify;
     display: grid;
     padding: 10px 0;
     position: relative;
