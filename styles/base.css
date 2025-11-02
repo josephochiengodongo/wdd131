@@ -23,15 +23,13 @@ footer {
 header {
     background-color: blue;
     color: white;
-    grid-template-columns: 60% auto;
-    gap: 1rem;
+    padding: 10px 0;
     text-align: center;
-    display: grid;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 nav a {
