@@ -37,7 +37,7 @@ nav a {
     display: inline-block;
 }
 nav a:hover {
-    display: flex
+    display: flex;
     font-weight: bold;
 }
 
