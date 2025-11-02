@@ -74,8 +74,9 @@ main {
     display: flex;
     padding: 1rem;
     text-align: left;
-    flex-direction: column-reverse;
+    flex-direction:column;
     gap: 1rem;
+    align-items: start;
 ;
 }
 
