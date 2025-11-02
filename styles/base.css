@@ -8,9 +8,8 @@ footer {
     background-color:blue;
     color: white;
     text-align: center;
-    display: flex;
-    padding: 10px 0;
-    position: inherit;
+    display: grid;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
