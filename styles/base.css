@@ -27,12 +27,9 @@ header {
     text-align: center;
 }
 
-nav ul {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
+    
+
 nav a {
     margin: 0 15px;
     text-decoration: none;
@@ -40,9 +37,7 @@ nav a {
     display: inline-block;
 }
 nav a:hover {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex
 }
 
 nav {
