@@ -27,6 +27,9 @@ header {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
 
     
 
@@ -41,7 +44,7 @@ nav a:hover {
 }
 
 nav {
-    display: flex;
+    margin: 0 2rem;
     justify-content: space-around;
 }
 
@@ -59,8 +62,11 @@ header main footer {
 }
 
 main {
-    min-height: 80vh;
-    padding: 20px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.2);
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
 }
 
 h1 {
