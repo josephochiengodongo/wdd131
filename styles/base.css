@@ -71,6 +71,7 @@ header main footer {
 main {
     margin: 1rem;
     display: grid;
+    grid-column: 1/2;
     padding: 1rem;
     grid-row: 2;
     gap: 3rem;
