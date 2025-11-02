@@ -74,8 +74,9 @@ main {
     border: 1px solid rgb(0 0 0/0.2);
     display: flex;
     padding: 1rem;
-    text-align: start;
-    flex-direction: row;
+    text-align: left;
+    flex-direction: column;
+    gap: 1rem;
 }
 
  h1 {
