@@ -64,9 +64,10 @@ header main footer {
 main {
     margin: 1rem;
     border: 1px solid rgb(0 0 0/0.2);
-    flex-wrap: wrap;
+    display: flex;
     padding: 1rem;
     text-align: start;
+    flex-direction: column;
 }
 
  h1 {
