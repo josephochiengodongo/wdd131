@@ -74,8 +74,9 @@ main {
     display: flex;
     padding: 1rem;
     text-align: left;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
+;
 }
 
  h1 {
