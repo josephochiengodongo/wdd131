@@ -8,7 +8,7 @@ footer {
     background-color:blue;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: flex;
     padding: 10px 0;
     position: relative;
     bottom: 0;
