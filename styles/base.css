@@ -45,6 +45,11 @@ nav a:hover {
     align-items: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 body  {
   font-family: "Roboto", sans-serif;
