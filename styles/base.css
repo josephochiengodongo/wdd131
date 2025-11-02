@@ -71,7 +71,7 @@ header main footer {
 main {
     margin: 1rem;
     border: 1px solid rgb(0 0 0/0.2);
-    display: table-column-group;
+    display: grid;
     padding: 1rem;
     text-align: left;
     flex-direction:column;
