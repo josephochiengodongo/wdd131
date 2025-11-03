@@ -1,18 +1,4 @@
-@media screen {
-    body {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-    }
 
-    main {
-        width: 90%;
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-        gap: 1rem;
-    }
 
-    header {
-        background-color: black;
-        color: white;
-    }
+
 }
