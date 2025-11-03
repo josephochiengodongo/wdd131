@@ -27,10 +27,8 @@
             grid-gap:1rem;
         }
 
-
-
         header {
-            color:white;
             background-color: black;
+            color: white;
         }
     }
