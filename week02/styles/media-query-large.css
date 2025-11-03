@@ -20,9 +20,10 @@
     }
 
 
-    main {
-        width: 90%;
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-        grid-gap:1rem
+        main {
+            width: 90%;
+            display: grid;
+            grid-template-columns:  1fr 1fr;
+            grid-gap:1rem;
+        }
     }
