@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Simple debug page for week02 exercises" />
+    <title>Debugging — WDD131 Week02</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+    <header>
+        <h1>Debugging Page</h1>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Info</h2>
+            <p>This is a minimal template you can use for debugging.</p>
+        </section>
+
+        <section>
+            <h2>Test Area</h2>
+            <button id="testBtn">Run test</button>
+            <pre id="output" aria-live="polite"></pre>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; WDD131</small>
+    </footer>
+
+    <script>
+        // simple debug helpers
+        console.log('Debug: page loaded');
+
+        const output = document.getElementById('output');
+        document.getElementById('testBtn').addEventListener('click', () => {
+            const msg = 'Test button clicked at ' + new Date().toLocaleTimeString();
+            console.log(msg);
+            output.textContent = msg;
+        });
+    </script>
 </body>
 </html>
