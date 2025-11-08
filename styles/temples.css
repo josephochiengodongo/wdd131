@@ -35,6 +35,7 @@ main  {
 
 footer {
     display: grid;
+    width: 100%;
 }
 
 h1 {
