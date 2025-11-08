@@ -23,6 +23,7 @@ header {
 header,
 main {
 	margin: 0 auto;
+    max-width: 740;
 }
 
 h1 {
