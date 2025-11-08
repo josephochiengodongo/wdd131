@@ -51,6 +51,11 @@ h1 {
     align-self: center;
 }
 
+
+h2 {
+    font-size: 2rem;
+    align-self: center;
+}
 nav {
 	background-color: #36454f;
 }
