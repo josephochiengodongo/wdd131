@@ -27,7 +27,7 @@ header {
 }
 
 header,
-main {
+main footer {
 	margin: 0 auto;
     max-width: 600px;
 }
