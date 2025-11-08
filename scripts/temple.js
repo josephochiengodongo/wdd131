@@ -1,9 +1,16 @@
-const mainnav=document.querySelector('.navigation');
-const temButton=document.querySelector('menu');
-temButton.addEventListener('click',()=>{
-    mainnav.classList.toggle('show');
-    temButton.classList.toggle('show')
-})
+document.addEventListener('DOMContentLoaded', () => {
+    const nav = document.querySelector('nav');
+    const menu = document.querySelector('#menu');
+    const navigation = document.querySelector('.navigation');
+
+    if (menu && navigation) {
+        menu.addEventListener('click', () => {
+            nav.classList.toggle('show');
+            menu.classList.toggle('show');
+            navigation.classList.toggle('show');
+        });
+    }
+});
 
 
 
