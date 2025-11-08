@@ -44,7 +44,7 @@ nav {
 nav ul {
 	list-style: none;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 nav a {
