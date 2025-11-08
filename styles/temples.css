@@ -48,6 +48,7 @@ footer {
 
 h1 {
 	font-size: 2rem;
+    align-self: center;
 }
 
 nav {
@@ -58,7 +59,7 @@ nav ul {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
-    align-self: center;
+
 }
 
 nav a {
