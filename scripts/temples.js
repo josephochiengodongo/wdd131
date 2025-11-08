@@ -9,8 +9,8 @@ const menuToggle=document.getElementById("mobile-menu");
 const navLink=document.getElementById("navlink");
 
 menuTongle.addEventListener("click", ()=>{
-navLink.classList.toggle("äctive") ;  
-});
+navLink.classList.toggle("äctive");  
+})
 
 
 
