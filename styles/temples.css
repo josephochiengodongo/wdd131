@@ -1,26 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-body {
-	font-family: Roboto, sans-serif;
-}
 
-h1 {
-	font-size: 1rem;
-	padding: 1rem;
-	background-color: #000;
-	color: #fff;
-	text-align: center;
-}
-
-p {
-	margin: 1rem;
-	border: 1px solid rgb(0 0 0 /0.1);
-	padding: 0.5rem;
-	background-color: #eee;
-}
 /* Mobile View ***************/
 #menu {
 	display: block;
