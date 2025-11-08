@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Album</title>
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples.large.css">
-    <script src="scripts/temple.js">defer</script>
-    <script src="scripts/getdates.js"defer></script>
+    <script src="scripts/temple.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
 </head>
+
 <body>
     <header>
         <h1>Temple Album &equiv;</h1>
         <a id="menu" href="#"></a>
-        <na>
+        <nav>
             <ul class="navigation">
-                <li><a href="#" >Home</a></li>
-                <li><a href="#" >Old</a></li>
-                <li><a href="#" >New</a></li>
-                <li><a href="#" >Large</a></li>
-                <li><a href="#" >Small</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
             </ul>
-        </na>
+        </nav>
     </header>
     <main>
-        <h2>Home</h2>
-        <img src="images/rome-temple.jpg" alt="Rome Italy Temple" width="600" height="400">
-        <caption>Rome,Italy Temple</caption>
+        <h2>Temple Images</h2>
+        <section class="temple grid">
+            <figure>
+                <img src="images/rome-temple.jpg" alt="Beautiful exterior view of the Rome Italy Temple" width="600"
+                    height="400">
+                <figcaption>Rome, Italy Temple</figcaption>
+            </figure>
+        </section>
     </main>
     <footer>
-        <p><span id="currentyear">&copy;2025🌳Joseph Ochieng Odongo🌳Kenya</span></p>
-        <p>lastModified:<span id="lastModified">8/11/2025 5:58</span></p>
+        <p><span id="currentyear">&copy; 2025 🌳 Joseph Ochieng Odongo 🌳 Kenya</span></p>
+        <p>Last Modified: <span id="lastModified">8/11/2025 5:58</span></p>
     </footer>
 </body>
+
 </html>
