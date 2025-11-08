@@ -85,5 +85,7 @@ nav a:hover {
 .active {
 	color: yellow;
 }
-
+.navigation {
+    text-align: center;
+}
 
