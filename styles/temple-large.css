@@ -11,4 +11,8 @@
         flex-direction: row;
     
     }
+
+    nav a {
+        flex:1 1 100%
+    }
 }
