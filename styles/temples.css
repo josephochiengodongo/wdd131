@@ -92,11 +92,6 @@ nav ul {
     font-size: 1.2rem;
 }
 
-/* show navigation when JS toggles .show */
-.navigation.show,
-nav ul.show {
-    display: flex;
-}
 
 nav a {
     display: block;
