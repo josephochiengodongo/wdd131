@@ -54,7 +54,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    align-self: center;
+    text-align: center;
 }
 nav {
 	background-color: #36454f;
