@@ -44,12 +44,34 @@ nav {
     background-color: black;
 }
 
-.show li {
-    display: block;
+#menu[aria-expanded="false"]::before {
+    content: "≡";
 }
 
-#menu.show::before {
-    content: "x";
+#menu[aria-expanded="true"]::before {
+    content: "✕";
+    /* show an X when open */
+}
+
+/* Collapsible navigation (mobile) */
+nav .navigation {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, opacity 0.35s ease;
+    opacity: 0;
+}
+
+nav.show .navigation {
+    max-height: 1000px;
+    /* large enough to show items */
+    opacity: 1;
+}
+
+/* Fallback display for list items when JS is disabled */
+@supports not (display: grid) {
+    .navigation li {
+        display: block;
+    }
 }
 
 
