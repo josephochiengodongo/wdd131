@@ -18,7 +18,7 @@ body {
 
 /* mobile **************************/
 header {
-	background-color:blue;
+	background-color:#bbb;
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
@@ -39,7 +39,7 @@ footer {
     box-sizing: border-box;
     text-align: center;
     font-size: 1rem;
-    background-color: blue;
+    background-color: #bbb;
     color: white;
     font-weight: bold;
     bottom: 0;
