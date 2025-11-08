@@ -16,10 +16,6 @@ body {
 	box-sizing: border-box;
 }
 
-body {
-	font-family: "Sansita", sans-serif;
-}
-
 /* mobile **************************/
 header {
 	background-color: #bbb;
