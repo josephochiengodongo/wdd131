@@ -1,19 +1,58 @@
-
 @media only screen and (min-width: 40em) {
-	h1 {
-		font-size: 2rem;
-	}
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1fr  100%;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	#menu {
-		display: none;
-	}
+    h1 {
+        font-size: 2rem;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1fr 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+}
+
+/* Tablet View */
+@media screen and (min-width: 600px) {
+    .temple.grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Desktop View */
+@media screen and (min-width: 900px) {
+    .temple.grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 2rem 0;
+    }
+}
+
+/* Large Desktop View */
+@media screen and (min-width: 1200px) {
+    .temple.grid {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    figure {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
 }

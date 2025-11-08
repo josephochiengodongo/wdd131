@@ -1,50 +1,51 @@
-
 /* Mobile View ***************/
 #menu {
-	display: block;
-	font-size: 1rem;
-	font-weight: 700;
-	text-decoration: none;
-	padding: 0.5rem 0.75rem;
-	background-color: #eee;
-	color: #000;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #eee;
+    color: #000;
 }
 
 #menu::before {
-	content: "≡";
+    content: "≡";
 }
 
 nav {
-	background-color: #ace;
+    background-color: #ace;
 }
+
 .navigation {
-	list-style: none;
-	margin: 0 auto;
-	max-width: 760px;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
 }
 
 .navigation li {
-	display: none;
+    display: none;
 }
+
 .navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	color: black;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
 .navigation a:hover,
 .navigation a:active {
-	color: white;
-	background-color: black;
+    color: white;
+    background-color: black;
 }
 
 .show li {
-	display: block;
+    display: block;
 }
 
 #menu.show::before {
@@ -52,9 +53,51 @@ nav {
 }
 
 
- body {
-  font-family: "Roboto", sans-serif;
-  font-weight:400;
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 
 }
-	
+
+/* Temple Grid Styles */
+.temple.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+figure:hover {
+    transform: translateY(-5px);
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 500;
+    background: #f8f8f8;
+}
+
+/* Responsive image sizing */
+.temple.grid img {
+    max-width: 100%;
+    height: auto;
+}
