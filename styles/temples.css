@@ -28,8 +28,25 @@ nav {
     max-width: 760px;
 }
 
-.navigation li {
+.navigation {
     display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation li {
+    display: block;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation.show li {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .navigation a {
@@ -49,12 +66,17 @@ nav {
     background-color: black;
 }
 
-.show li {
-    display: block;
-}
-
 #menu.show::before {
     content: "x";
+}
+
+/* When menu is shown, switch to 3-column grid */
+nav.show~main .temple.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 1200px;
+    padding: 1rem;
 }
 
 /* Mobile Temple Grid - Vertical Layout */
