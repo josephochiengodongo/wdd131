@@ -1,5 +1,5 @@
 /* Larger Views ******************************/
-@media (min-width: 740px) {
+@media (min-width: 1040px) {
 	header {
 		display: flex;
 		align-items: center;
