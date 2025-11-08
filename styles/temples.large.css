@@ -9,8 +9,8 @@
 
     .navigation li {
         display: block;
-        /* change state in small view */
-        flex: 1fr 100%;
+        /* distribute items evenly on larger screens */
+        flex: 1 1 auto;
     }
 
     .navigation a {
@@ -19,6 +19,19 @@
 
     #menu {
         display: none;
+    }
+
+    /* Make sure the navigation is visible (override mobile collapse) */
+    nav .navigation {
+        max-height: none;
+        opacity: 1;
+        overflow: visible;
+    }
+
+    .navigation {
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
     }
 }
 
