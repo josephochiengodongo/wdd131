@@ -57,27 +57,27 @@ nav {
     content: "x";
 }
 
-/* Mobile Temple Grid */
+/* Mobile Temple Grid - Vertical Layout */
 .temple.grid {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 2rem;
     padding: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 figure {
-    flex: 0 0 85%;
-    min-width: 300px;
-    max-width: 400px;
     margin: 0;
     padding: 0;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+}
+
+figure:hover {
+    transform: translateY(-5px);
 }
 
 figure img {
@@ -92,4 +92,5 @@ figcaption {
     text-align: center;
     background: #f8f8f8;
     font-weight: 500;
+    border-radius: 0 0 8px 8px;
 }
