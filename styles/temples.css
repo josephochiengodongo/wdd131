@@ -70,7 +70,7 @@ nav {
 }
 
 .active::before { 
-	content: "📍";  /* just a wayfinding symbol for the user */
+	content: "\01F4CD";  /* just a wayfinding symbol for the user */
 }
 
 .stuff {
