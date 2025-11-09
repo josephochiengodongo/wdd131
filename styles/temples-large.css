@@ -3,6 +3,7 @@
 	.grid-nav ul {
 		justify-content: space-around;
 		flex-direction: row;
+        display:flex;
 	}
 	.grid-nav a {
 		flex: 1 1 100%;
