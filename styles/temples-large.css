@@ -1,7 +1,7 @@
 /* Larger Views ******************************/
 @media (min-width: 601px) {
 	header {
-		display:grid;
+		display:flex;
 		align-items: center;
 		justify-content: space-between;
 	}
