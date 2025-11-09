@@ -9,10 +9,25 @@ footer {
 	margin: 0 auto;
 }
 
-marquee {
-	padding: 1rem;
-	background-color: #eee;
-}
+ active {
+    white-space:nowrap;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    font-size: 15rem;
+    animation:scroll-left 10s linear infinite;
+
+  } 
+ 
+   @keyframes:scroll-left {
+    from {
+        transform:translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+   }
+
 
 h1 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
