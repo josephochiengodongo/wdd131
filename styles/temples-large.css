@@ -6,7 +6,7 @@
 		justify-content: space-between;
 	}
 	nav ul {
-		justify-content: flex-end;
+		justify-content: space-around;
 		flex-direction: row;
 	}
 	nav a {
