@@ -17,8 +17,8 @@ body {
 /* mobile **************************/
 header {
     background-color: #bbb;
-    display: flex;
-    gap: 1rem;
+    display: grid;
+    grid-gap: 2rem;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 30px #333;
