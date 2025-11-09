@@ -12,6 +12,7 @@ body {
 }
 
 /* mobile **************************/
+
 header {
 	background-color: #bbb;
 	display: grid;
@@ -19,6 +20,7 @@ header {
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 30px #333;
+    min-width: 600px;
 }
 
 header,
@@ -78,7 +80,6 @@ figure {
 h2 {
     text-align: center;
 }
-
 
 
 
