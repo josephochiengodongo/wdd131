@@ -32,7 +32,7 @@ main {
 }
 
 footer {
-    display: grid;
+    display: flex;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
