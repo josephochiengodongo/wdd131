@@ -14,7 +14,7 @@ footer {
     overflow: hidden;
     width: 100%;
     display: block;
-    font-size: 15rem;
+    font-size: 1rem;
     animation:scroll-left 10s linear infinite;
 
 }  
