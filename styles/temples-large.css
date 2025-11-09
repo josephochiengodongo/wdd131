@@ -5,11 +5,11 @@
 		align-items: center;
 		justify-content: space-between;
 	}
-	nav ul {
+	.grid-nav ul {
 		justify-content: space-around;
 		flex-direction: row;
 	}
-	nav a {
+	.grid-nav a {
 		flex: 1 1 100%;
 
 	}
