@@ -1,55 +1,80 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
+}* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Roboto, sans-serif;
+}
 
+h1 {
+	font-size: 1rem;
+	padding: 1rem;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+p {
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 /0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+/* Mobile View ***************/
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav {
+	background-color: #ace;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+.navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
 }
 
 
-
-
-/* mobile **************************/
-
-.grid-nav {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-
-}
-.grid-nav a {
-    background-color: #0055aa;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-
-
-header,
-main {
-    margin: 0 auto;
-    max-width: 600px;
-    align-items: center;
-}
-
-footer {
-    display: grid;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 1rem;
-    background-color: #bbb;
-    color: white;
-    font-weight: bold;
-    bottom: 0;
-
-}
-
-
-h2 {
-    font-size: 2rem;
-    text-align: center;
-}
 

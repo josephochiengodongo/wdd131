@@ -1,9 +1,13 @@
 /* Larger Views ******************************/
 @media (min-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: row;
+    }
 	.grid-nav ul {
 		justify-content: space-around;
 		flex-direction: row;
-        display:flex;
+        display:grid;
 	}
 	.grid-nav a {
 		flex: 1 1 100%;
