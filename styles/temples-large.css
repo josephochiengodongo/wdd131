@@ -13,6 +13,9 @@
 		flex: 1 1 100%;
 
 	}
+    .grid-nav {
+        grid-template-columns: repeat(5,1fr);
+    }
 
 
 }
