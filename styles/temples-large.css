@@ -4,19 +4,7 @@
         display: flex;
         flex-direction: row;
     }
-	.grid-nav ul {
-		justify-content: space-around;
-		flex-direction: row;
-        display:grid;
-	}
-	.grid-nav a {
-		flex: 1 1 100%;
-
-	}
-    .grid-nav {
-        grid-template-columns: repeat(5,1fr);
-    }
-
-
 }
+
+
 
