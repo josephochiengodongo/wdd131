@@ -59,6 +59,11 @@ nav a:hover {
 	color: yellow;
 }
 
+footer {
+    display: grid;
+    grid-template-rows: auto;
+}
+
 
 
 
