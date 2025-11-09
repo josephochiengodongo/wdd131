@@ -1,5 +1,5 @@
 /* Larger Views ******************************/
-@media (min-width: 601px) {
+@media (min-width: 1201px) {
 	.grid-nav ul {
 		justify-content: space-around;
 		flex-direction: row;
