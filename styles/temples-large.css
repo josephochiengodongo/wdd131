@@ -1,5 +1,6 @@
 
-@media only screen and (min-width: 40em) {
+
+@media only screen and (min-width: 600) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -16,5 +17,4 @@
 	#menu {
 		display: none;
 	}
-
-
+}
