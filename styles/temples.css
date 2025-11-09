@@ -61,7 +61,15 @@ nav a:hover {
 
 footer {
     display: grid;
-    grid-template-rows: auto;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color:white;
+    background-color: #bbb;
+
+}
+h1 {
+  justify-self: center;  
 }
 
 
