@@ -24,6 +24,23 @@ header {
     box-shadow: 0 0 30px #333;
 }
 
+.grid-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+}
+.grid-nav a {
+    background-color: #0055aa;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
 header,
 main {
     margin: 0 auto;
