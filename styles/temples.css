@@ -30,7 +30,7 @@ body {
 header,
 main {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 600px;
     align-items: center;
 }
 
@@ -45,11 +45,6 @@ footer {
     font-weight: bold;
     bottom: 0;
 
-}
-
-h1 {
-    font-size: 2rem;
-    text-align: center;
 }
 
 
