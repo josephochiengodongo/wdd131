@@ -41,6 +41,8 @@ main {
 h2 {
 	color: navy;
 	text-align:justify;
+    grid-template-columns: 2 1fr;
+    
 
 }
 
