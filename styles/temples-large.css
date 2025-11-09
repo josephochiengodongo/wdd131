@@ -1,10 +1,5 @@
 /* Larger Views ******************************/
 @media (min-width: 601px) {
-	header {
-		display:flex;
-		align-items: center;
-		justify-content: space-between;
-	}
 	.grid-nav ul {
 		justify-content: space-around;
 		flex-direction: row;
