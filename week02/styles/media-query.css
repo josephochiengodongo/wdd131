@@ -21,7 +21,11 @@ section {
     padding: 1rem;
     background-color: white;
 }
-    
+ 
+h1::after {
+    content: "v";
+    color: red;
+}
 
 
     
