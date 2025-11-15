@@ -23,7 +23,8 @@ body {
 header,main,footer {
     max-width: 810px;
     display: grid;
-    
+    box-sizing: border-box;
+
     
 
 }
