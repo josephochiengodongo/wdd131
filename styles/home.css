@@ -83,3 +83,8 @@ main {
     margin: 2px;
     object-fit: cover;
 }
+
+ h1::after {
+    content:"v" ;
+    color: red;
+ }
