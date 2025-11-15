@@ -49,4 +49,5 @@ main {
     background-color: green;
     opacity: 0.7;
     color: black;
+    padding: .1rem;
 }
