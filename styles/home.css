@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800) {
+@media only screen and (min-width: 600px) {
 	h1 {
 		font-size: 2rem;
 	}
