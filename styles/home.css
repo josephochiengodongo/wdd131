@@ -12,8 +12,6 @@ body {
 
 }
 
- 
- 
 header,main,footer {
     max-width: 810px;
     display: grid;
