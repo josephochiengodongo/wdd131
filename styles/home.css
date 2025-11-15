@@ -25,12 +25,14 @@ header,main,footer {
     display: grid;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 1rem;
-
-    
+    padding: 1rem; 
 
 }
-
+ data {
+    position: absolute;
+    bottom: 500px;
+    left: 0;
+ }
 
 
 footer {
