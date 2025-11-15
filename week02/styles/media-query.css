@@ -27,5 +27,10 @@ h1::after {
     color: red;
 }
 
+h2 data {
+    display: grid;
+    grid-template-columns: 1/-1;
+    
+}
 
     
