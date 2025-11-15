@@ -53,3 +53,10 @@ main {
     border: 2rem;
     margin: 1px;
 }
+
+
+.div {
+    position:relative;
+    bottom: 50;
+    left: 0;
+}
