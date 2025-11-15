@@ -42,13 +42,8 @@ main {
 }
 
 
-.h2  {
+.hero article  {
     position: absolute;
     bottom: 4opx;
     left: 0;
-
- }
-
-
-
-
+}
