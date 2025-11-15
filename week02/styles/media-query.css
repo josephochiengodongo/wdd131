@@ -22,12 +22,8 @@ section {
     background-color: white;
 }
  
-h1::after {
-    content: "v";
-    color: red;
-}
 
-h2 data {
+    .section {
     display: grid;
     grid-template-columns: 1/-1;
     
