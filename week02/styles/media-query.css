@@ -22,13 +22,14 @@ section {
     background-color: white;
 }
 
- .data {
+ article {
     font-size: 1.2rem;
     left:1rem;
     right:auto;
     background-color: aqua;
     color: #fff;
     position: absolute;
+    box-sizing: border-box;
 
 
     
