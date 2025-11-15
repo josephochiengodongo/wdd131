@@ -52,8 +52,13 @@ footer {
     color: white;
     text-align: center;
     height: 150px;
-    
- }   
+
+ }
+ 
+ h1 {
+    font-weight: bold;
+    text-align: center;
+ }
 
 
 main {
