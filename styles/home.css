@@ -21,7 +21,8 @@ body {
 }
  
 header,main,footer {
-    max-width: 810px
+    max-width: 810px;
+    align-items: center;
     
 
 }
