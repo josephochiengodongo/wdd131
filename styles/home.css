@@ -28,11 +28,8 @@ header,main,footer {
     padding: 1rem; 
 
 }
- data {
-    position: absolute;
-    bottom: 500px;
-    left: 0;
- }
+ 
+ 
 
 
 footer {
@@ -80,7 +77,7 @@ main {
     position:relative;
     bottom: 550px;
     left:30px;
-    background-color: red;
+    background-color: black;
     color: white;
     width: 180px;
     margin: 2px;
