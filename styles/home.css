@@ -41,6 +41,9 @@ footer {
     color:white;
     text-align: center;
     box-sizing: border-box;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
     
 
     
