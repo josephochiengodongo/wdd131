@@ -1,18 +1,7 @@
-@media only screen and (min-width: 810px) {
-	h1 {
-		font-size: 2rem;
-	}
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 100%;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -20,11 +9,8 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-}* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
+
 
 body {
 	font-family: "Sansita", sans-serif;
@@ -57,10 +43,9 @@ main {
 
 
 .h2  {
-    border-radius: .1rem;
-    float:right;
-    margin: .1rem;
-    background-color: green;
+    position: absolute;
+    bottom: 4opx;
+    left: 0;
 
  }
 
