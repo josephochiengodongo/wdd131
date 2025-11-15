@@ -24,8 +24,12 @@ section {
  
 
  .hero article {
-    display: grid;
-    grid-template-columns: 1/-1;
+    font-size: 1.2rem;
+    left:1rem;
+    right:auto;
+    background-color: aqua;
+    color: #fff;
+
     
 }
 
