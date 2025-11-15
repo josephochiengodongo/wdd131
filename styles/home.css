@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 820px) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -37,9 +37,9 @@ body {
 header,main,footer {
     padding: 1rem;
     margin: 1rem auto;
-    max-width: 840px;
+    max-width: 820px;
     border: 1px solid #bbb;
-    background-color: blueish;
+    background-color: red;
 }
 
 main {
