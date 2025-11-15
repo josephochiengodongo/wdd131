@@ -37,7 +37,7 @@ body {
 header,main,footer {
     padding: 1rem;
     margin: 1rem auto;
-    max-width: 800px;
+    max-width: 840px;
     border: 1px solid #bbb;
     background-color: blueish;
 }
