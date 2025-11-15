@@ -29,6 +29,7 @@ section {
     right:auto;
     background-color: aqua;
     color: #fff;
+    position: absolute;
 
     
 }
