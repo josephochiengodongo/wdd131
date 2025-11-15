@@ -44,7 +44,7 @@ main {
 
 .hero article  {
     position: absolute;
-    bottom: 210px;
+    bottom: 70px;
     left: 630px;
     background-color: green;
     opacity: 0.7;
