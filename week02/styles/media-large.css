@@ -4,8 +4,10 @@
 
     }
 }
-section {
+.section {
     border:.1rem ;
     float: right;
+    margin: .2rem;
+
 }
 
