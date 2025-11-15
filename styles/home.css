@@ -10,15 +10,13 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 
-
-
-body {
-	font-family: "Sansita", sans-serif;
 }
 
-/* mobile **************************/ody {
-    font-family: "Roboto", sans-serif;
-}
+
+
+/* mobile **************************/
+
+ 
  
 header,main,footer {
     max-width: 810px;
