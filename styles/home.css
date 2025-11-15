@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600) {
+@media only screen and (min-width: 800) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -33,7 +33,7 @@ body {
 /* mobile **************************/
 
 header {
-	background-color: #bbb;
+	background-color: red;
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
