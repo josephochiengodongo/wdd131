@@ -69,5 +69,6 @@ main {
     left:30px;
     background-color: red;
     color: white;
-    width: 200px;
+    width: 180px;
+    margin: 2px;
 }
