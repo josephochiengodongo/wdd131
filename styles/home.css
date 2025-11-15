@@ -59,9 +59,11 @@ main {
 }
 
 
-.h2 data {
+.h2  {
     border-radius: .1rem;
     float:right;
+    margin: .1rem;
+    background-color: green;
 
  }
 
