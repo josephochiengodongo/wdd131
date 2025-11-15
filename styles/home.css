@@ -44,11 +44,16 @@ footer {
     position: relative;
     bottom: 150px;
     left: 3px;
-    
+}    
 
-    
+ header {
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }   
 
-}
+
 main {
     display:grid;
     grid-template-columns: 1fr;
