@@ -50,4 +50,5 @@ main {
     opacity: 0.7;
     color: black;
     padding: .1rem;
+    border: 2rem;
 }
