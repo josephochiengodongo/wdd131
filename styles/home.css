@@ -59,6 +59,9 @@ main {
     grid-gap: 1rem;
 }
 
+ :root {
+    background: white;
+ }
 
 .hero article  {
     position: absolute;
