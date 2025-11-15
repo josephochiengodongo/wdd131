@@ -71,5 +71,5 @@ main {
     color: white;
     width: 180px;
     margin: 2px;
-    object-fit: contain;
+    object-fit: cover;
 }
