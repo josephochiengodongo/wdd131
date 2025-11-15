@@ -65,6 +65,8 @@ main {
 
 .data {
     position:relative;
-    bottom: 50px;
-    left:15px;
+    bottom: 550px;
+    left:30px;
+    background-color: red;
+    color: white;
 }
