@@ -37,7 +37,7 @@ body {
 header,main,footer {
     padding: .1rem;
     margin: 2rem auto;
-    max-width: 810;
+    max-width: 810px;
     border: 1rem solid #bbb;
     
 
