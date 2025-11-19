@@ -63,7 +63,7 @@ main {
     opacity: 0.7;
     color: black;
     padding: .1rem;
-    border: 2rem;
+    border: 2px solid white;
     margin: 1px;
 }
 
