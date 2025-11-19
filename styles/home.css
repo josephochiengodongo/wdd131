@@ -72,8 +72,8 @@ main {
     position:relative;
     bottom: 550px;
     left:30px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     width: 180px;
     margin: 2px;
     object-fit: cover;
@@ -84,3 +84,4 @@ main {
     color: red;
 
  }
+
