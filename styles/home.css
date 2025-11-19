@@ -79,6 +79,11 @@ main {
     object-fit: cover;
 }
 
+.weather data {
+    background-color: white;
+    color: black;
+}
+
  h1::after {
     content:"v" ;
     color: red;
