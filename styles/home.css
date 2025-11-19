@@ -77,7 +77,7 @@ main {
     width: 180px;
     margin: 2px;
     object-fit: cover;
-    padding: .1rem;
+    padding: 1rem;
     opacity: 0.7;
     border: 1rem;
 }
