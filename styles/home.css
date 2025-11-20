@@ -79,7 +79,7 @@ main {
     margin: 2px;
     object-fit: cover;
     padding: 1rem;
-    opacity: 0.7;
+    opacity: 0.5;
     border: 2px solid green;
 }
 
