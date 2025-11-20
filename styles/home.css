@@ -79,13 +79,14 @@ main {
     margin: 2px;
     object-fit: cover;
     padding: 1rem;
-    opacity: 0.5;
+    opacity: 0.7;
     border: 2px solid green;
 }
 
 .weather data {
-    background-color: white;
-    color: black;
+    background-color: red;
+    color: white;
+    opacity: 0.7;
 }
 
  h1::after {
