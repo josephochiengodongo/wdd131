@@ -60,9 +60,9 @@ main {
     position: absolute;
     bottom: 5px;
     left: 830px;
-    background-color: white;
+    background-color: green;
     opacity: 0.7;
-    color: black;
+    color: white;
     padding: .1rem;
     border: 3px solid green;
     margin: 1px;
@@ -73,8 +73,8 @@ main {
     position:relative;
     bottom: 550px;
     left:30px;
-    background-color: white;
-    color: black;
+    background-color: geen;
+    color: white;
     width: 180px;
     margin: 2px;
     object-fit: cover;
