@@ -49,7 +49,7 @@ main {
     display:grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    margin: red;
+    background-color: red;
 }
 
  :root {
