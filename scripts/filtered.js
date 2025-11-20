@@ -30,6 +30,10 @@ document.querySelector("#lastHodified").textContent="Last Modification: ${docume
 
 const hambutton=document.querySelector("#hamgutton");
 
+>hambutton.addEventListener('click',() =>{});
+
+>function toggleActive(element) {}
+
 const temples = [
   {
     templeName: "Aba Nigeria",
