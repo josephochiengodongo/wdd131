@@ -88,8 +88,8 @@ main {
 }
 
  h1::after {
-    content:"home" ;
-    color: red;
+    content:"-State" ;
+    color: white;
 
  }
 
