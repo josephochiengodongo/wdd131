@@ -90,6 +90,6 @@ main {
  h1::after {
     content:"-State" ;
     color: white;
-    font-size: xx-large;
+    font-weight: bold;
  }
 
