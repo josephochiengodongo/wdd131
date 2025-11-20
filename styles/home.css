@@ -49,7 +49,7 @@ main {
     display:grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    background-color: red;
+    background-color: white;
 }
 
  :root {
@@ -73,8 +73,8 @@ main {
     position:relative;
     bottom: 550px;
     left:30px;
-    background-color: white;
-    color: black;
+    background-color: red;
+    color: white;
     width: 180px;
     margin: 2px;
     object-fit: cover;
