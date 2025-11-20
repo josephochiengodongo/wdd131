@@ -30,9 +30,9 @@ document.querySelector("#lastHodified").textContent="Last Modification: ${docume
 
 const hambutton=document.querySelector("#hamgutton");
 
->hambutton.addEventListener('click',() =>{});
+ hambutton.addEventListener('click',() =>{});
 
->function toggleActive(element) {}
+function toggle(element) => { }
 
 const temples = [
   {
