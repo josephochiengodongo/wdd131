@@ -32,7 +32,7 @@ const hambutton=document.querySelector("#hamgutton");
 
  hambutton.addEventListener('click',() =>{});
 
-function toggle(element) => { }
+function toggleActive(element) { }
 
 const temples = [
   {
