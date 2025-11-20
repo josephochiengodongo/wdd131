@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
 let d=new Date();
 document.getElementById("currentYear").innerHTML="&copy;${d.getFullYear()}"
 document.querySelector("#lastHodified").textContent="Last Modification: ${document.lastModification}"
+
+const hambutton=document.querySelector("#hamgutton");
+
 const temples = [
   {
     templeName: "Aba Nigeria",
