@@ -91,6 +91,6 @@ h2 {
 }
 
 #menu::before {
-    content:"&#9776;";
+    content:"hamberger span"
 }
 
