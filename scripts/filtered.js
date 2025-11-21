@@ -119,4 +119,3 @@ Function createTempCard() {
         card.appendChild(dedication);
         cacar
 
-}    )    
