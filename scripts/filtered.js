@@ -122,7 +122,3 @@ function createTempCard() {
 
         document.querySelector("res-grid").appendChild(card);; 
     }
-     
-}  
-
-
