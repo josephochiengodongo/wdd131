@@ -96,8 +96,8 @@ const temples = [
 
 createTempCard();
 
-Function createTempCard() {
-    temples.forEach(temple=>(
+function createTempCard() {
+    temples.forEach(temple=>{
         let card=document.createElement("section");
         let name=document.createElement("h3");
         let location=document.createElement("p");
@@ -117,5 +117,11 @@ Function createTempCard() {
         card.appendChild(name);
         card.appendChild(location);
         card.appendChild(dedication);
-        cacar
+        card.appendChild(area);
+        card.appendChild(img);
+
+        document.querySelector("res-grid").appendChild(card);; 
+    }
+     
+}    
 
