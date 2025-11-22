@@ -91,6 +91,10 @@ h2 {
 }
 
 #menu::before {
-    content:"hamberger span"
-}
+    content:"≡";
+
+
+
+
+
 
