@@ -60,8 +60,8 @@ nav a:hover {
 	color: yellow;
 }
 
-main {
-    max-width: 1000px;
+header,main,footer {
+    max-width: 800px;
     margin: 0 auto;
     align-items: center;
 }
