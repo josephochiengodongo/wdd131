@@ -92,7 +92,11 @@ menu {
 
 menu::before {
     content:"≡";
+}
 
+menu::after {
+    content:"x";
+}
 
 
 
