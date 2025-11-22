@@ -55,3 +55,8 @@ nav a:hover {
 .active {
 	color: yellow;
 }
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
