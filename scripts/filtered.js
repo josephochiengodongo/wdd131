@@ -119,8 +119,8 @@ function createTempCard() {
         card.appendChild(img);
 
         document.querySelector("res-grid").appendChild(card);
-    }):
+    });
 
 
-});
+}
 
