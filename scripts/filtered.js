@@ -91,7 +91,7 @@ const temples = [
   },
   
 ]
-const container=document.querySelector(#temple-cards)
+const container=document.querySelector(#temple-cards);
 temples.forEach(temple=>{
     const img=document.createElement("img")
     img.src=temple.imageUrl;
@@ -100,3 +100,17 @@ temples.forEach(temple=>{
     container.appendChild(img)
 })
 
+const container=document.querySelector("temple-cards");
+
+//create the card
+const card=document.createElement("div");
+card classList.add("temple-card");
+
+//create image
+const img=document.createElement("img");
+img.src=temple.imageUrl;
+img.alt=temple.name;
+
+//create name
+const name=document.createElement(" ");
+name.textContent=temple.name;
