@@ -91,4 +91,12 @@ const temples = [
   },
   
 ]
+const container=document.querySelector(#temple-cards)
+temples.forEach(temple=>{
+    const img=document.createElement("img")
+    img.src=temple.imageUrl;
+    img.alt=temple.name;
     
+    container.appendChild(img)
+})
+
