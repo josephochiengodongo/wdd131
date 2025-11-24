@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const menuButton = document.getElementById('menu');
-    const navigation = document.querySelector('.navigation');
+    const navigatba = document.querySelector('.navigation');
 
     if (!menuButton || !navigation) return;
 
@@ -34,7 +34,7 @@ const hambutton=document.querySelector("#hamButton");
 
 const temples = [
   {
-    templeName: "Aba Nigeria",
+    templeName: "A",
     location: "Aba, Nigeria",
     dedicated: "2005, August, 7",
     area: 11500,
