@@ -34,7 +34,7 @@ const hambutton=document.querySelector("#hamButton");
 
 const temples = [
   {
-    templeName: "A",
+    templeName: "Aba Nigeria",
     location: "Aba, Nigeria",
     dedicated: "2005, August, 7",
     area: 11500,
