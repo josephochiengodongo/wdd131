@@ -1,0 +1,108 @@
+:root {
+    --primary-color:#1b9715;
+    --secondary-color:#ffffff;
+    --accent1-color:#055a05;
+    --accent2-color:#000000;
+    ---font-
+
+
+
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+header,main,footer {
+    max-width: 810px;
+    display: grid;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1rem; 
+
+}
+ 
+ 
+
+
+footer {
+    max-width: 810px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 210px;
+    left: 4px;
+}    
+
+ header {
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 100px;
+
+ }
+
+
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    background-color: white;
+}
+
+ :root {
+    background: white;
+ }
+
+.hero article  {
+    position: absolute;
+    bottom: 5px;
+    left: 830px;
+    background-color: green;
+    opacity: 0.7;
+    color: white;
+    padding: .1rem;
+    border: 3px solid green;
+    margin: 1px;
+}
+
+
+.data {
+    position:relative;
+    bottom: 550px;
+    left:30px;
+    background-color: green;
+    color: white;
+    width: 180px;
+    margin: 2px;
+    object-fit: cover;
+    padding: 1rem;
+    opacity: 0.7;
+    border: 2px solid green;
+
+}
+
+.weather data {
+    background-color: red;
+    color: white;
+    opacity: 0.7;
+}
+
+ h1::after {
+    content:"-State" ;
+    color: white;
+    font-weight: bold;
+ }
+
