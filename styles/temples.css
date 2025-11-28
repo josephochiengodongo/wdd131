@@ -62,7 +62,7 @@ nav a:hover {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-	}
+    }
 	nav ul {
 		justify-content: flex-end;
 		flex-direction: row;
@@ -178,6 +178,21 @@ figcaption {
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	padding: 1px;
 }
+@media (max-width:600px) {
+    footer {
+    background-color:blue;
+    color: white;
+    box-sizing: border-box;
+    display: grid;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+}
+    
+
 
 
 
