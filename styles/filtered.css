@@ -1,18 +1,14 @@
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-}* {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
 body {
-	font-family: "Sansita", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 /* mobile **************************/
-
 header {
 	background-color: #bbb;
 	display: grid;
@@ -20,7 +16,6 @@ header {
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 30px #333;
-    min-width: 600px;
 }
 
 header,
@@ -61,24 +56,138 @@ nav a:hover {
 	color: yellow;
 }
 
-footer {
-    display: grid;
-    text-align: center;
-    box-sizing: border-box;
-    font-size: 1rem;
-    color:white;
-    background-color: #bbb;
+/* Larger Views ******************************/
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+    }
+	nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	nav a {
+		flex: 1 1 100%;
+	}
+}.stdlf {
+	font-weight: 700;
+	border-bottom: 1px solid #777;
+	margin-bottom: 1rem;
+}
 
+body {
+	font-family: Roboto, sans-serif;
 }
 h1 {
-  text-align: center; 
+	font-size: 2.5rem;
+	padding: 1rem;
+	background-color: #333;
+	text-align: center;
+	font-family: "Acme", Arial, sans-serif;
+	color: #fff;
 }
-figure {
-    text-align: center;
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+	color: darkgreen;
+}
+section {
+	margin: 1rem auto;
+	max-width: 960px;
+	padding: 0.5rem;
+
 }
 
-h2 {
-    text-align: center;
+figure {	
+    background-color: #fff;
 }
+img {
+	width: 100%;
+	height: auto;
+	margin: 0.5rem;
+}
+figcaption {
+	font-size: smaller;
+}
+/* hover effect */
+.hover:hover {
+	box-shadow: 0 0 50px #333;
+}
+/* rounded corners - boxmodel */
+.rocorn {
+	border-radius: 15px 150px;
+}
+/* simple opacity */
+
+.opac {
+	opacity: 0.5;
+}
+
+.blur {
+	filter: blur(4px);
+}
+
+.gray {
+	filter: blur(1px) grayscale(50%);
+}
+
+.object {
+	width: 100%;
+	height: 75px;
+	object-fit: cover;
+}
+
+.contrast {
+	filter: contrast(50%);
+}
+
+.saturate {
+	filter: saturate(50%);
+}
+
+.shape-outside {
+	border-radius: 100px;
+	width: 35%;
+	margin: 0 3em 0.5em 0;
+	float: left;
+	
+}
+
+.mbm-difference {
+	mix-blend-mode: difference;
+}
+
+.mbm-hard-light {
+	mix-blend-mode: hard-light;
+}
+
+.transform {
+	transform: scaleX(-1);
+}
+
+.turn {
+	rotate: 0.05turn;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 1px;
+}
+@media (max-width:600px) {
+    footer {
+    background-color:blue;
+    color: white;
+    box-sizing: border-box;
+    display: grid;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+}
+    
+
+
 
 
