@@ -3,21 +3,7 @@
     width: 100%;
     box-sizing: border-box;
     font-size: 2rem;
-    font-weight: bold;
-}
-
-footer {
-    background-color:blue;
-    color: white;
-    box-sizing: border-box;
-    display: grid;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-
-}
+    font-weight: bold;                                                                                                                                                                                                                                                          
 
 
 
@@ -82,7 +68,7 @@ main {
  h1 {
     font-weight: 400;
     grid-column: 1 / -1;
-    justify-self: center
+    justify-self: center;
 }
 
 section.card {
@@ -101,15 +87,5 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-self: center;
 }
-
-
-
-
-
-
-
-
-
-

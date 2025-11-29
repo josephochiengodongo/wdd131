@@ -113,14 +113,10 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/1-Boise-Idaho-Temple-1968984.jpg"
    },
-{}
+];
 
 
-     
-
-
-
-]      
+         
 const container=document.querySelector(temple-cards);
 temples.forEach(temple=>{
     const img=document.createElement("img")
@@ -130,7 +126,12 @@ temples.forEach(temple=>{
     container.appendChild(img)
 })
 
+createTempleCard();
 
+function createTempCard() {
+    temples.forEach(temple=>(
+        
+        
 //create the card
 const card=document.createElement("div");
 
@@ -140,5 +141,5 @@ img.src=temple.imageUrl;
 img.alt=temple.name;
 
 //create name
-const name=document.createElement(" ");
-name.textContent=temple.name;
+const name=document.createElement() {
+name.textContent=temple.name;=>
