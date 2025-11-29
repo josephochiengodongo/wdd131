@@ -89,9 +89,39 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  
-]
-const container=document.querySelector(#temple-cards);
+  { 
+    templeName: "London England",
+    Location:   "London City,England",
+    Dedication: "1952,Septemper,9",
+    area: 42775,
+    imageUrl:
+    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/london-england/400x250/london-england-temple-lds-650239-wallpaper.jpg"
+  },
+  {
+    templeName:"Brisbane Australia",
+    Location: "Brisbane,Australia",
+    Dedication:"2003,June,15",
+    area: 10700,
+    imageUrl:
+    "https://content.churcuschrist.org/templesldsorg/bc/Temples/photo-galleries/brisbane-australia/400x250/brisbane-australia-temple-lds-745088-wallpaper.jpg"
+   },
+   {
+    templeName:"Boise Idaho",
+    Location:"Boise,Idaho",
+    Dedication: "1984,may,25",
+    area:35864,
+    imageUrl:
+    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/1-Boise-Idaho-Temple-1968984.jpg"
+   },
+{}
+
+
+     
+
+
+
+]      
+const container=document.querySelector(temple-cards);
 temples.forEach(temple=>{
     const img=document.createElement("img")
     img.src=temple.imageUrl;
@@ -100,11 +130,9 @@ temples.forEach(temple=>{
     container.appendChild(img)
 })
 
-const container=document.querySelector("temple-cards");
 
 //create the card
 const card=document.createElement("div");
-card classList.add("temple-card");
 
 //create image
 const img=document.createElement("img");
