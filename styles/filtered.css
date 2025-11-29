@@ -52,13 +52,7 @@ nav a:hover {
 .active {
 	color: yellow;
 }
-
-/* Larger Views ******************************/
-@media (min-width: 740px) {
-	nav ul {
-		justify-content: flex-end;
-		flex-direction: row;
-	}
+	
 	nav a {
 		flex: 1 1 100%;
 	}

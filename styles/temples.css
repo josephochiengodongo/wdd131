@@ -8,15 +8,8 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-/* mobile **************************/
-header {
-	background-color: #bbb;
-	display: grid;
-	grid-gap: 1rem;
-	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-shadow: 0 0 30px #333;
-}
+
+
 
 header,
 main {
@@ -173,7 +166,7 @@ figcaption {
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	padding: 1px;
 }
-@media (max-width:600px) {
+@media (max-width:700px) {
     footer {
     background-color:blue;
     color: white;
