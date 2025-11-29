@@ -115,31 +115,4 @@ const temples = [
    },
 ];
 
-
-         
-const container=document.querySelector(temple-cards);
-temples.forEach(temple=>{
-    const img=document.createElement("img")
-    img.src=temple.imageUrl;
-    img.alt=temple.name;
-    
-    container.appendChild(img)
-})
-
-createTempleCard();
-
-function createTempCard() {
-    temples.forEach(temple=>(
-        
-        
-//create the card
-const card=document.createElement("div");
-
-//create image
-const img=document.createElement("img");
-img.src=temple.imageUrl;
-img.alt=temple.name;
-
-//create name
-const name=document.createElement() {
-name.textContent=temple.name;=>
+const contanair=document
