@@ -115,4 +115,27 @@ const temples = [
    },
 ];
 
-const contanair=document
+const contanair=document.getElementById("templecard");
+temples.forEach(temple=>{
+
+    //create card
+    const card=document.createElement("div");
+    card.classList.add("temple-card");
+
+    //create image
+    const img=document.createElement("img");
+    img.src=temple.imageUrl;
+    img.alt=temple.templeName;
+    img.loading=lazy;
+
+    //card text content
+    card,innerHTML +=
+    <h2>${temple.templeName}</h2>;
+    <p><strong>Location:</strong>${temple.location}</p>;
+    <p><strong>Dedication:</strong>${temple.dedication}</p>;
+    <p><strong>Area:</strong>${temple.area.toLocaleString()}sq ft</p>;
+
+    //add img + card to page
+    card.prepend(img);
+    contanair.appendChild(card);
+})
