@@ -5,18 +5,7 @@
 }
 
 body {
-	font-family: "Roboto", sans-serif;
-}
-
-/* mobile **************************/
-header {
-	background-color: #bbb;
-	display: grid;
-	grid-template-columns:repeat(5 1fr);
-    gap:5px;
-	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-shadow: 0 0 30px #333;
+	font-family: "Roboto", sans-serif
 }
 
 
@@ -53,10 +42,8 @@ nav a:hover {
 	color: yellow;
 }
 	
-	nav a {
-		flex: 1 1 100%;
-	}
-}.stdlf {
+	
+.stdlf {
 	font-weight: 700;
 	border-bottom: 1px solid #777;
 	margin-bottom: 1rem;
