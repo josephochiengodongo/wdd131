@@ -62,5 +62,36 @@ header {
 
 }
 
+/* Temple grid: 3 columns x 3 rows layout */
+.img-gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 400px);
+	gap: 1rem;
+	justify-content: center;
+	align-items: start;
+	padding: 1rem;
+}
+
+ .img-gallery{
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+	padding: 0.5rem;
+	text-align: center;
+	width: 400px;
+}
+
+. .temple-img {
+	width: 400px !important;
+	height: 250px !important;
+	object-fit: cover;
+	display: block;
+	margin: 0 auto 0.5rem auto;
+}
+
+.img h2 { font-size: 1.1rem; margin-bottom: 0.4rem; }
+.img p { font-size: 0.95rem; margin: 0.15rem 0; }
+
 
 
