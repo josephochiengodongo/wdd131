@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Review</title>
+    <meta name="description" content="Product review form for various HP products">
+    <meta name="author" content="Joseph Ochieng Odongo">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
 </head>
 <body>
     <header>
         <h1>Product Review</h1>
-
     </header>
     <main>
         <form method="get" action="review.html">
@@ -27,17 +30,37 @@
             </fieldset>
             <fieldset>
                 <legend>Overal Rating</legend>
-                <label for="star1">&star;</label>
-                <input type="radio" id="star1" Name="Rating"value="1"required>
-                <label for="star2">&star;&star;</label></label>
-                <input type="radio" id="star2" Name="Rating"value="3"required>
-                <label for="star3">&star;&star;&starf;</label>
-                <input type="radio" id="star3" Name="Rating"value="3"required>
-                <label for="star4">&star;&star;&star;&star;</label>
-                <input type="radio" id="star4" Name="Rating"value="4"required>
-                <label for="star5">&star;&star;&star;&star;&star;</label>
-                <input type="radio" id="star5" Name="Rating"value="5"required>
+                <div Rating>
+                    <input type="radio" id="star1" Name="Rating" value="1" required>
+                    <label for="star">&star;</label>
+                    <input type="radio" id="star2" Name="Rating" value="2" required>
+                    <label for="star2">&star;&star;</label>
+                    <input type="radio" id="star3" Name="Rating" value="3" required>
+                    <label for="star3">&star;&star;&star;</label>
+                    <input type="radio" id="star4" Name="Rating" value="4" required>
+                    <label for="star4">&star;&star;&star;&star;</label>
+                    <input type="radio" id="star5" Name="Rating" value="5" required>
+                    <label for="star5">&star;&star;&star;&star;&star;</label>
+                </div>
             </fieldset>
+            <fieldset><legend>Date of Instalation</legend>
+                <label><input type="date" name="completeDate"></label>
+                <div>Which features did you find useful in the product?<br>(check all that applies)
+                 </div>
+                <label><input type="checkbox" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" name="Ease of use" value="yes">Ease of use</label>
+                <label><input type="checkbox" name="perfomance" value="yes">Performance</label>
+                <label><input type="checkbox" name="design" value="yes"> Design</label>
+            </fieldset>
+            <fieldset>
+                <legend>Written Review(optional)</legend>
+                <label><textarea name="review" rows="5" cols="30" placeholder=""></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name(optional)</legend>
+                <label><input type="text" name="username" placeholder="Enter your name"></label>
+            </fieldset>
+            <input type="submit" value="propose Review">
         </form>
     </main>
     <footer>
