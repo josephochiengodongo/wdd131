@@ -1,51 +1,53 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
 
 nav a:hover {
-	text-decoration: underline double;
-	background-color: #eee;
-	color: #000;
+    text-decoration: underline double;
+    background-color: #eee;
+    color: #000;
 }
 
 h1 {
-	font-size: 2.5rem;
-	padding: 1rem;
-	background-color: #333;
-	text-align: center;
-	font-family: "Acme", Arial, sans-serif;
-	color: #fff;
+    font-size: 2.5rem;
+    padding: 1rem;
+    background-color: #333;
+    text-align: center;
+    font-family: "Acme", Arial, sans-serif;
+    color: #fff;
 }
+
 h2 {
-	font-size: 2rem;
+    font-size: 2rem;
 }
 
 section {
-	margin: 1rem auto;
-	max-width: 960px;
-	padding: 0.5rem;
+    margin: 1rem auto;
+    max-width: 960px;
+    padding: 0.5rem;
 
 }
 
-figure {	
+figure {
     background-color: #fff;
 }
+
 img {
-	width: 100%;
-	height: auto;
-	margin: 0.5rem;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem;
 }
 
 
 footer {
-    background-color:blue;
+    background-color: blue;
     color: white;
     box-sizing: border-box;
     display: grid;
@@ -55,7 +57,7 @@ footer {
     font-size: 1rem;
     font-weight: bold;
 }
-  
+
 header {
     display: flex;
     flex-direction: column;
@@ -63,35 +65,41 @@ header {
 }
 
 /* Temple grid: 3 columns x 3 rows layout */
-.img-gallery {
-	display: grid;
-	grid-template-columns: repeat(3, 400px);
-	gap: 1rem;
-	justify-content: center;
-	align-items: start;
-	padding: 1rem;
+.templecard {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+    margin: 0 auto;
 }
 
- .img-gallery{
-	background: #fff;
-	border: 1px solid #ddd;
-	border-radius: 6px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-	padding: 0.5rem;
-	text-align: center;
-	width: 400px;
+.temple-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 0.5rem;
+    text-align: center;
+    width: 400px;
+    overflow: hidden;
 }
 
-. .temple-img {
-	width: 400px !important;
-	height: 250px !important;
-	object-fit: cover;
-	display: block;
-	margin: 0 auto 0.5rem auto;
+.temple-img {
+    width: 400px ;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 0.5rem auto;
 }
 
-.img h2 { font-size: 1.1rem; margin-bottom: 0.4rem; }
-.img p { font-size: 0.95rem; margin: 0.15rem 0; }
+.temple-card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
 
-
-
+.temple-card p {
+    font-size: 0.95rem;
+    margin: 0.15rem 0;
+}
