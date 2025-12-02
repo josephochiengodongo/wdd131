@@ -8,6 +8,7 @@
     <meta name="author" content="Joseph Ochieng Odongo">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,8 +19,8 @@
             <fieldset>
                 <legend>Product Name</legend>
                 <label>types of Product
-                    <select id="computer" name="product">
-                        <option value=" ">select a product</option>
+                    <select name="product">
+                        <option value=" ">--Please Select--</option>
                         <option value="laptop">hp Laptop</option>
                         <option value="computer">hp Computer</option>
                         <option value=" work station">hp Work Station</option>
@@ -43,8 +44,9 @@
                     <label for="star5">&star;&star;&star;&star;&star;</label>
                 </div>
             </fieldset>
-            <fieldset><legend>Date of Instalation</legend>
-                <label><input id="period" type="date" name="completeDate"></label>
+            <fieldset>
+                <legend>Date of Instalation</legend>
+                <label>Name<input id="period" type="date" name="completeDate"></label>
                 <div>Which features did you find useful in the product?<br>(check all that applies)
                  </div>
                 <label><input id="hp-Laptop" type="checkbox" name="durability" value="yes">Durability</label>
@@ -52,13 +54,14 @@
                 <label><input id="hp-Servers" type="checkbox" name="perfomance" value="yes">Performance</label>
                 <label><input id="hp-tablet" type="checkbox" name="design" value="yes"> Design</label>
             </fieldset>
+            </fieldset>
             <fieldset>
                 <legend>Written Review(optional)</legend>
                 <label><textarea id="information" name="review" rows="5" cols="30" placeholder=""></textarea></label>
             </fieldset>
             <fieldset>
                 <legend>Your Name(optional)</legend>
-                <label><input id="fullname" type="text" name="username" placeholder="Enter your name"></label>
+                <label><input id="fullname" type="text" name="username" placeholder="Enter your name" required></label>
             </fieldset>
             <input type="submit" value="propose Review">
         </form>
