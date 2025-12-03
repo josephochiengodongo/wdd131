@@ -125,12 +125,6 @@ if (container) {
         card.classList.add('temple-card');
 
         const img = document.createElement('img');
-        // set explicit intrinsic size to reserve space (400x250)
-        img.width = 400;
-        img.height = 250;
-        img.style.width = '400px';
-        img.style.height = '250px';
-        img.style.objectFit = 'cover';
         // use a tiny transparent placeholder and store the real URL in data-src
         img.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
         img.dataset.src = temple.imageUrl;
