@@ -13,7 +13,7 @@ body {
 }
 
 header,main,footer {
-    max-width: 1100px;
+    max-width: 960px;
     display: grid;
     box-sizing: border-box;
     margin: 0 auto;
@@ -25,14 +25,14 @@ header,main,footer {
 
 
 footer {
-    max-width: 810px;
+    max-width: 960px;
     background-color: red;
     color:white;
     text-align: center;
     box-sizing: border-box;
-    position: relative;
-    bottom: 210px;
-    left: 4px;
+
+    
+    
 }    
 
  header {
@@ -40,7 +40,7 @@ footer {
     background-color: red;
     color: white;
     text-align: center;
-    height: 100px;
+    height: 200px;
 
  }
 
@@ -95,4 +95,29 @@ main {
     color: white;
     font-weight: bold;
  }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+nav a :hover {
+    background-color: red;
+    color: var(--accent2-color);
+    font-size: 50%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 
