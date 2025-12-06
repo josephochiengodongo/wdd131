@@ -52,9 +52,9 @@ main {
     background-color: white;
 }
 
- :root {
+:root {
     background: white;
- }
+}  
 
 .hero article  {
     position: absolute;
@@ -125,48 +125,76 @@ nav a :hover {
 
 }
 .grid-container {
-        display: grid;
-        grid-template-columns: repeat(3, 350px);
-        gap: 1rem;
-        justify-content: center;
-        align-items: start;
-        padding: 1rem;
-        margin: 0 auto;
-    }
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+    margin: 0 auto; 
+}
 
-    .grid-container {
-        width: 200px;
-        background: #fff;
-        border-radius: 0;
-        padding: 0.5rem;
-        text-align: center;
-    }
 
-    .grid-container img {
-        width: 200px ;
-        height: 170px ;
-        object-fit:cover;
-        display: block;
-        margin: 0 auto 0.5rem auto;
-    }
-    h2 {
-        position: relative;
-        left: 350px;
+.grid-container {
+    width: 200px;
+    background: #fff;
+    border-radius: 0;
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+.grid-container img {
+    width: 200px ;
+    height: 170px ;
+    object-fit:cover;
+    display: block;
+    margin: 0 auto 0.5rem auto;
+    
+}
 
-    }
 
-    h1 {
-        position: absolute;
-        left:630px;
-        top:300px;
-        color: #fff;
-        font-size: xx-large;
-        font-weight: bolder;
+h1 {
+    position: absolute;
+    left:630px;
+    top:300px;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
         
-    }.article img {
-        position: absolute;
-        left: 600px;
-    }
+
+article {
+    display: flex;
+    justify-content:row;
+
+    
+
+    
+}
+ 
+h2 {
+    position: relative;
+    left: 350px;
+}
+      
+
+        
+    
+        
+        
+        
+        
+    
+    
+    
+        
+
+    
+
+
+
+
 
 
 
