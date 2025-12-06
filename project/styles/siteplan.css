@@ -176,13 +176,28 @@ article {
 h2 {
     position: relative;
     left: 350px;
+    font-size: xx-large;
 }
       
+table {
+    position: relative;
+    font-size: xx-large;
+    width: 960px;
+}
+ th {
+    background-color: red;
+ }       
+  td:nth-child(3n+1){
+    background-color: orange;
+  }
+ td:nth-child(3n+3) {
+    background-color: orange;
+ } 
 
-        
-    
-        
-        
+.contact-info {
+    font-size: xx-large;
+    background-color: blue;
+}    
         
         
     
