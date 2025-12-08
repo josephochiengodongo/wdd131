@@ -50,6 +50,7 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     background-color: white;
+    
 }
 
 :root {
@@ -166,7 +167,6 @@ h1 {
 
 article {
     display: flex;
-    justify-content:row;
 
     
 
@@ -194,15 +194,154 @@ table {
     background-color: orange;
  } 
 
+td:nth-child(3n+2){
+    background-color: yellow;
+}
+
+
+
 .contact-info {
     font-size: xx-large;
     background-color: blue;
 }    
         
-        
+  label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 400px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+.btm-submit {
+    background-color: blue;
+    color: var(--secondary-color);
+    max-width: 400px;
+    border-radius: .6px;
+    padding: .8rem;
+
+} 
+
+
+
+
+
+.btm-submit:hover {
+    opacity: 0.95;
+}      
     
+.cta-trips {
+    background-color: yellow;
+    padding: 0;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);        
+
+}
+
+.cta-trips h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    position: absolute;
+    top:600px
+
+}
+
+.cta-trips p {
+    font-size: 1rem;
+    line-height: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:600px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: red;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 4rem;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    border: 2px solid var(--secondary-color);
+    position: absolute;
+    top:600px;
+    width: 250px;
+}
+
+.cta-button:hover {
+    background: orange;
+    color: var(--primary-color);
+    transform: scale(1.5);
     
-    
+}
+
+.cta-button:active {
+    transform: scale(0.98);
+}
+.btm.hover.button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 900;
+    width: 400px;
+}
+
+.btm-submit {
+    background-color: blue;
+    color: var(--secondary-color);
+    max-width: 400px;
+    border-radius: 6px;
+    padding: .8rem;
+
+} 
+.form-checkbox {
+    margin-right: 14px;
+}
+.trip-table {
+    width: 650px;
+    font-size: x-large;
+    background-color:var(--secondary-color);
+    color: var(--accent2-color);
+
+
+}
+
+
+.h1.p {
+    background-color: green;
+}
+
+th {
+    background-color: red;
+}
+
+
+td:nth-child(3n+1){
+    background-color: orange;
+
+}
+
+ 
         
 
     

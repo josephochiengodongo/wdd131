@@ -9,6 +9,7 @@
     <meta name="author" content="Joseph Ochieng Odongo">
     <link rel="stylesheet" href="styles/siteplan-large.css">
     <link rel="stylesheet" href="styles/siteplan.css">
+    <script src="scripts/siteplam.js" defer></script>
 </head>
 <body>
     <header>
@@ -31,12 +32,14 @@
             </adress>
         </div>
         <section class="trip-table">
-            <h2>Tourstride Tour Sammery</h2>
+            <h2>Tourstride Tour Summery</h2>
             <table>
                 <tr>
-                    <th>Days</th>
-                    <th>Tours cost</th>
-                    <th>Tour Type</th>
+                    <th colspan="3" scope="colgroup">Tourstride Tours Summery</th>
+                </tr>
+                    <th scope="col">Days</th>
+                    <th scope="col">Tours cost</th>
+                    <th scope="col">Tour Type</th>
                 </tr>
                 <tr>
                     <td>1/2 day class 1</td>
@@ -67,6 +70,33 @@
         </section>
         <section>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.783279243308!2d36.858445073585955!3d-1.382486935735941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0fbbde36bc45%3A0x6f9671d1966870ec!2sNairobi%20National%20Park!5e1!3m2!1sen!2ske!4v1765047718229!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="#" class="contact-form">
+                <div class="full-w"></div>
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Joseph Ochieng Odongo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="josephodongo99@gmail.com">
+                <div class="purpose">
+                    <p>Message Purpose:</p>
+                    <fieldset>
+                        <label for="inquiry">General Inquiry</label>
+                        <input id="inquiry" type="radio" name="purpose" value="inquiry" required>
+                        <label for="reservation">Reservation Question</label>
+                        <input id="reservation" type="radio" name="purpose" value="reservation" required>
+                        <label for="feedback">Website Suggestion</label>
+                        <input id="feedback" type="radio" name="purpose" value="feedback" required>
+                    </fieldset>
+                </div>
+                <fieldset>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="Message" rows="4" required placeholder=""></textarea>
+                    <div class="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                        <label for="subscribe">Subscribe to our newsletter</label>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btm btm-submit">Get in Touch</button>
+            </form>
         </section>
     </main>
     <footer>
