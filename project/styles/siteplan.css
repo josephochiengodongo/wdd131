@@ -36,11 +36,17 @@ footer {
 }    
 
  header {
-    box-sizing: border-box;
     background-color: red;
     color: white;
-    text-align: center;
-    height: 150px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+    
+
+    
+    
+
+
 
  }
 
@@ -61,42 +67,22 @@ main {
     position: absolute;
     bottom: 5px;
     left: 830px;
-    background-color: green;
+    background-color: orange;
     opacity: 0.7;
     color: white;
     padding: .1rem;
-    border: 3px solid green;
     margin: 1px;
 }
 
-
-.data {
-    position:relative;
-    bottom: 550px;
-    left:30px;
-    background-color: green;
-    color: white;
-    width: 180px;
-    margin: 2px;
-    object-fit: cover;
-    padding: 1rem;
-    opacity: 0.7;
-    border: 2px solid green;
-
-}
-
-.weather data {
-    background-color: red;
-    color: white;
-    opacity: 0.7;
-}
 
  
  
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
+
+    
 
 
 }
@@ -109,13 +95,14 @@ nav a {
 
 }
 
-nav a :hover {
+nav a:hover {
     background-color: red;
     color: var(--accent2-color);
-    font-size: 50%;
+    font-size: xx-large;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 
 }
 .grid-containerg {
@@ -155,20 +142,21 @@ nav a :hover {
 
 
 h1 {
-    position: absolute;
-    left:630px;
-    top:300px;
+    position:relative;
+    top: 20px;
     color: #fff;
     font-size: xx-large;
     font-weight: bolder;
+    background-color: green;
+    text-align: center;
+    opacity: .7;
+    padding: 2px;
 
 }
         
 
 article {
     display: flex;
-
-    
 
     
 }
@@ -178,7 +166,30 @@ h2 {
     left: 350px;
     font-size: xx-large;
 }
-      
+
+section.tour {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    padding: 50px;
+    background-color: bisque;
+}
+h3 {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: center;
+    position: absolute;
+    left: 20.5%;
+    top:620px;
+    font-size: xx-large;
+    width: 946px;
+    padding: 10px;
+    
+
+}
+
+
 table {
     position: relative;
     font-size: xx-large;
@@ -202,7 +213,8 @@ td:nth-child(3n+2){
 
 .contact-info {
     font-size: xx-large;
-    background-color: blue;
+    background-color: bisque;
+    text-align: center;
 }    
         
   label {
@@ -242,7 +254,7 @@ td:nth-child(3n+2){
 }      
     
 .cta-trips {
-    background-color: yellow;
+    background-color:yellow ;
     padding: 0;
     border-radius: 8px;
     text-align: center;
@@ -256,7 +268,7 @@ td:nth-child(3n+2){
     margin-bottom: 1rem;
     color: var(--primary-color);
     position: absolute;
-    top:600px
+    top:3px;
 
 }
 
@@ -267,13 +279,13 @@ td:nth-child(3n+2){
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    top:600px;
+    top:1px;
 }
 
 .cta-button {
     display: inline-block;
     padding: 0.75rem 2rem;
-    background: red;
+    background: white;
     color: var(--primary-color);
     text-decoration: none;
     border-radius: 4rem;
@@ -281,7 +293,7 @@ td:nth-child(3n+2){
     transition: all 0.3s ease;
     border: 2px solid var(--secondary-color);
     position: absolute;
-    top:600px;
+    bottom: 600px;
     width: 250px;
 }
 
