@@ -14,4 +14,13 @@ const tourPlace=['Maasai Mara','Tsavo National Park','Nyali Beach','Hells Gate',
 tourPlace.push('Lake Naivasha National Park');
 console.log(tourPlace);
 
-const heading=document.getElementById('mainTitle')
+const heading=document.getElementById('mainTitle');
+heading.textContent="welcome to contact page";
+
+const btm=document.getElementById('submit');
+btm.addEventListener ("click", ()=>{
+    alert("subscribe!");
+});
+
+let tours=['Maasai Mara','Tsavo National Park','Nyali Beach','Hells Gate'];
+localStorage.setItem('tours',JSON.stringify(tours));
