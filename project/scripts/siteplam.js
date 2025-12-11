@@ -4,3 +4,12 @@ function showLastModified() {
     const formattedDate = lastModified.toLocaleDateString('en-US', options);
     document.getElementById('lastModified');
 }
+
+tours.forEach(tour => {
+console.log('${tour.name}-USD ${tour.price}-${tour.place}');
+    
+});
+
+const tourPlace=['Maasai Mara','Tsavo National Park','Nyali Beach','Hells Gate','Amboseli National Park'];
+tourPlace.push('Lake Naivasha National Park');
+console.log(tourPlace);
