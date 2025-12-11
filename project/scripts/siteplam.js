@@ -22,5 +22,24 @@ btm.addEventListener ("click", ()=>{
     alert("subscribe!");
 });
 
-let tours=['Maasai Mara','Tsavo National Park','Nyali Beach','Hells Gate'];
+let tour=['Maasai Mara','Tsavo National Park','Nyali Beach','Hells Gate'];
 localStorage.setItem('tours',JSON.stringify(tours));
+
+
+
+const tours=['Maasai Mara','Tsavo National Park','Nyali Beach','Hells Gate'];
+    tours.forEach(tour=> {
+console.log('Tour available: ${tour}');
+});
+
+
+
+
+
+
+
+
+
+
+
+
