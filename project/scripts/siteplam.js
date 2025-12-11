@@ -13,3 +13,5 @@ console.log('${tour.name}-USD ${tour.price}-${tour.place}');
 const tourPlace=['Maasai Mara','Tsavo National Park','Nyali Beach','Hells Gate','Amboseli National Park'];
 tourPlace.push('Lake Naivasha National Park');
 console.log(tourPlace);
+
+const heading=document.getElementById('mainTitle')
